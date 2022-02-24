@@ -1,0 +1,22 @@
+section
+{
+    width: 90%;
+    margin: 20px auto;
+}
+textarea,button,a
+{
+    margin-top: 20px;
+}
+input
+{
+    width: 90%;
+}
+textarea
+{
+    width: 90%;
+    height: 100px;
+}
+button,a
+{
+    margin-left: 10px;
+}

@@ -1,0 +1,11 @@
+<div *ngIf="taskID == null" class="alert">
+    <p class="alert alert-danger">Cant Match Any Task!</p>
+</div>
+
+<section *ngIf="taskID">
+    <input #taskTitle type="text" class="form-control" placeholder="Task Title" value="{{Task.title}}" >
+    <textarea #taskDes class="form-control" placeholder="Task Description" value="{{Task.description}}"></textarea>
+    <button class="btn btn-primary" (click)="modifyTask(taskTitle,taskDes,taskID)">Save</button>
+    <button class="btn btn-danger" (click)="DeleteTask(taskID)">Delete</button>
+    <a routerLink="" class="btn btn-danger">cancel</a>
+</section>

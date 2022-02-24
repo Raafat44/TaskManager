@@ -1,0 +1,23 @@
+.button
+{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+ul
+{
+    width: 97%;
+    margin: 20px auto;
+}
+ul li
+{
+    padding: 12px;
+    font-size: 20px;
+}
+ul li a
+{
+    text-decoration: none;
+}
+ul li button
+{
+    margin-left: auto;    
+}
